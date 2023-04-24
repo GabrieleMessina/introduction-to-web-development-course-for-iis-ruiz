@@ -1,4 +1,4 @@
-# introduction-to-web-development-course-for-iis-ruiz
+# Web Development 50 Course
 An introduction to web development course for student of the IIS Ruiz institute of Augusta
 
 ## Course Description 🇬🇧
