@@ -1,0 +1,24 @@
+body{
+    background-color: lightblue;
+}
+
+nav{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.first-title{
+    color: darkred;
+    font-family: roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#site-description{
+    width: 250px;
+    margin: auto;
+}
+
+
+nav > *{
+    margin: auto;
+    height: 100%;
+}
