@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Titolo della pagina</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light" href="#">
+                        <i class="bi bi-cpu d-inline-block align-text-top text-info"></i>
+                        Sito Portfolio
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon text-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html">HTML</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="workWithCss.html">CSS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light active" href="workWithBootstrap.html">Bootstrap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light active" href="workWithJS.html">JS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary disabled">What's Next?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h1 class="first-title">What's Next?</h1>
+                    <p>
+                        I siti web di oggi possono essere molto complessi, per questo motivo c'è sempre tanto da
+                        imparare.
+                        Ecco alcuni spunti su cose che non abbiamo avuto modo di vedere in questo corso ma che devono
+                        essere conosciute
+                        se si intende diventare uno sviluppatore web.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h2>Animazioni</h2>
+                    <div>
+                        Con CSS si possono mettere su fantastiche animazioni che possono aiutare (se non ne si abusa) a
+                        rendere il nostro sito web
+                        unico e più User Friendly ad esempio mosrtrando un Loader quando l'applicazione sta facendo del
+                        lavoro prolungato.
+
+                    </div>
+                    <div class="spinner-grow text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h2>Accessibilità</h2>
+                    <div>
+                        Vista la diffusione sempre più invasiva del Web, è bene pensare anche a chi ha difficolta in uno
+                        o più ambiti
+                        cercando di facilitare l'accesso e la navigazione al sito.
+                        Ci sono molti modi di fare questo: https://www.w3schools.com/html/html_accessibility.asp
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-center"
+                            style="height: 100px; background-color: yellow; font-size: 2em; color: white;">Qui un testo
+                            bianco non va bene</div>
+                        <div class="col-6 text-center"
+                            style="height: 100px; background-color: yellow; font-size: 2em; color: black;">Ma uno nero
+                            si!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h2>REST API</h2>
+                    <div>
+                        Alle volte è necessario che i vostro sito comunichi con altri siti o applicazioni.
+                        Questo può avvenire grazie a della APIs (Application Programming Interfaces)
+                        le api sono regole che il sito web da contattare espone in modo che chiunque si possa adeguare e
+                        usarle.
+                    </div>
+                    <div>
+                        - <b id="dummyjson"></b>:
+                        questo è il titolo di un prodotto che si trova su un sito esterno, il quale può essere contattato tramite
+                        la chiamata alla REST API <a href="https://dummyjson.com/products/1">https://dummyjson.com/products/1</a>
+                    </div>
+                    <script>
+                        fetch('https://dummyjson.com/products/1')
+                            .then(res => res.json())
+                            .then(json => document.getElementById("dummyjson").innerText = json.title )
+                    </script>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h2>Web Components</h2>
+                    <div>
+                        I siti web di oggi possono essere molto complessi, per questo motivo c'è sempre tanto da
+                        imparare.
+                        Ecco alcuni spunti su cose che non abbiamo avuto modo di vedere in questo corso ma che devono
+                        essere conosciute
+                        se si intende diventare uno sviluppatore web.
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h2>Progressive Web App</h2>
+                    <div>
+                        I siti web di oggi possono essere molto complessi, per questo motivo c'è sempre tanto da
+                        imparare.
+                        Ecco alcuni spunti su cose che non abbiamo avuto modo di vedere in questo corso ma che devono
+                        essere conosciute
+                        se si intende diventare uno sviluppatore web.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <h2>Sicurezza</h2>
+                    <div>
+                        I siti web di oggi possono essere molto complessi, per questo motivo c'è sempre tanto da
+                        imparare.
+                        Ecco alcuni spunti su cose che non abbiamo avuto modo di vedere in questo corso ma che devono
+                        essere conosciute
+                        se si intende diventare uno sviluppatore web.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="d-flex align-items-center">
+                <div class="me-2">
+                    <i class="bi-c-circle"></i>
+                </div>
+                <span id="copy-year">replaced from JavaScript</span>&nbsp;<span>Gabriele Messina</span>
+            </div>
+
+            <ul class="nav justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a href="#"><i class="bi-twitter"></i></a></li>
+                <li class="ms-3"><a href="#"><i class="bi-instagram"></i></a></li>
+                <li class="ms-3"><a href="#"><i class="bi-facebook"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
