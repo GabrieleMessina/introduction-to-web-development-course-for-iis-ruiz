@@ -23,7 +23,7 @@ Se il tempo lo consentirà parleremo inoltre dello stato dell’arte per quanto 
 
 
 ## Course Chapters
-0. Course introduction [(slide)](https://docs.google.com/presentation/d/1TH90ifgAE4ndYhAl7GTQiifRzToago0iegK2_WJvnyQ)
-1. Introduction to the Web [(slide)](https://docs.google.com/presentation/d/1nDebq1dlzIu910lScSm_kW_1xSgrcZDo21x49mp7nV4)
-2. Development Tools [(slide)](https://docs.google.com/presentation/d/1Zyw1fcX8WrlbdAtknxgRU3TMMxAXlW-ffXHbKlD67dk)
-3. Introduction to Firebase [(slide)](https://docs.google.com/presentation/d/1EZmAzsGiXGG6e2h-PMs_HIXSbnsW2lM6rJkyXYADS8Q)
+0. Course introduction [(slide)](https://docs.google.com/presentation/d/1TH90ifgAE4ndYhAl7GTQiifRzToago0iegK2_WJvnyQ/edit?usp=sharing)
+1. Introduction to the Web [(slide)](https://docs.google.com/presentation/d/1nDebq1dlzIu910lScSm_kW_1xSgrcZDo21x49mp7nV4/edit?usp=sharing&resourcekey=0-jY1yHWjzszRoF_HrZX5cUw)
+2. Development Tools [(slide)](https://docs.google.com/presentation/d/1Zyw1fcX8WrlbdAtknxgRU3TMMxAXlW-ffXHbKlD67dk/edit?usp=sharing&resourcekey=0-Y3cBf3oNfA_-0aA0ZGdFTA)
+3. Introduction to Firebase [(slide)](https://docs.google.com/presentation/d/1EZmAzsGiXGG6e2h-PMs_HIXSbnsW2lM6rJkyXYADS8Q/edit?usp=sharing)
